@@ -54,7 +54,7 @@ Welcome to the **Stockify API** — a robust RESTful API for managing stock data
 ### Run the project locally
 
 ```bash
-git clone https://github.com/your-username/stockify-api.git
-cd stockify-api
+git clone https://github.com/mohamed-osman-se/Stockfiy-APIs
+cd Stockfiy-APIs
 dotnet restore
 dotnet run
