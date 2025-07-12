@@ -1,57 +1,50 @@
 # 📈 Stockify API
 
-Welcome to the **Stockify API** — a robust RESTful API for managing stock data, user portfolios, authentication, and administrative operations. Designed for developers who want to build trading platforms, stock dashboards, or personal investment tools.
+Welcome to **Stockify** — a fully functional, production-ready RESTful API for managing stocks, portfolios, user accounts, and admin operations.
+
+I built this project to demonstrate my backend development skills in real-world scenarios including **authentication**, **data modeling**, **role-based access control**, and **API documentation** — with clean, maintainable code and modern architecture.
+
+🔗 **Live Demo (Swagger UI)**:  
+[https://stockfiy.runasp.net/swagger/index.html](https://stockfiy.runasp.net/swagger/index.html)
 
 ---
 
-## 🔗 Live Demo
+## 🧠 Why This Project?
 
-> 🧪 [Add your Swagger/Production URL here]
+This project reflects how I would design and implement a **secure, scalable, and maintainable Web API** in a real job environment.  
+It covers everything a recruiter or hiring manager looks for:
 
----
-
-## 📃 Table of Contents
-
-- [Features](#-features)
-- [Tech Stack](#-tech-stack)
-- [Getting Started](#-getting-started)
-- [API Endpoints](#-api-endpoints)
-- [Authentication](#-authentication)
-- [Contributing](#-contributing)
-- [License](#-license)
-- [Contact](#-contact)
+- ✅ Clean architecture using ASP.NET Core
+- ✅ JWT-based authentication & authorization
+- ✅ Secure user flows: register, login, reset password
+- ✅ Realistic domain: stocks, portfolios, and comments
+- ✅ Admin-only endpoints with role restrictions
+- ✅ EF Core with migrations & SQLite integration
+- ✅ Full API documentation using Swagger
 
 ---
 
-## ✅ Features
+## 🛠️ Technologies Used
 
-- 🔐 JWT-based Authentication & Authorization
-- 👤 User Registration, Login, and Password Recovery
-- 📊 Stock Management (CRUD)
-- 💼 Portfolio Tracking
-- 💬 Commenting System
-- 🛠️ Admin-only operations (like user deletion)
-- 📄 Fully documented via Swagger/OpenAPI 3.0
-
----
-
-## 💻 Tech Stack
-
-- **Backend:** ASP.NET Core Web API
-- **Auth:** ASP.NET Core Identity + JWT
-- **Docs:** Swagger (OpenAPI 3.0)
-- **Database:** SQL Server / Any EF Core-compatible DB
+| Area               | Technology                          |
+|--------------------|--------------------------------------|
+| Language           | C# (.NET 9 SDK)                     |
+| Framework          | ASP.NET Core Web API                |
+| Authentication     | ASP.NET Core Identity + JWT         |
+| Database           | SQLite (EF Core ORM)                |
+| Documentation      | Swagger / OpenAPI 3.0               |
+| Hosting (Live Demo) | MonsterASP.NET                     |
 
 ---
 
-## 🚀 Getting Started
+## 🚀 How to Run Locally
 
 ### Prerequisites
 
-- [.NET 7/8/9 SDK](https://dotnet.microsoft.com/)
-- [SQLite] or any EF Core-supported DB
+- [.NET SDK 9 or later](https://dotnet.microsoft.com/)
+- [SQLite](https://www.sqlite.org/index.html)
 
-### Run the project locally
+### Steps
 
 ```bash
 git clone https://github.com/mohamed-osman-se/Stockfiy-APIs
