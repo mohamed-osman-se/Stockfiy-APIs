@@ -7,6 +7,11 @@ I built this project to demonstrate my backend development skills in real-world 
 🔗 **Live Demo (Swagger UI)**:  
 [https://stockfiy.runasp.net/swagger/index.html](https://stockfiy.runasp.net/swagger/index.html)
 
+🧪 **Admin Test Credentials**:  
+If you'd like to test the admin-only endpoints, you can log in with:  
+**Email**: `mohamedosman.se@gmail.com`  
+**Password**: `Admin_123`
+
 ---
 
 ## 🧠 Why This Project?
