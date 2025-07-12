@@ -32,7 +32,7 @@ app.UseSwaggerUI(options =>
 });
 
 
-app.UseStaticFiles();
+
 
 app.UseDefaultFiles();
 
@@ -44,11 +44,6 @@ app.UseAuthorization();
 app.MapControllers();
 app.UseHttpsRedirection();
 
-using (var scope = app.Services.CreateScope())
-{
-    var services = scope.ServiceProvider;
-    await AppDbInitializer.SeedAdminAsync(services);
-}
 
 app.Run();
 
